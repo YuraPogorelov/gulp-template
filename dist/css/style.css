@@ -1,0 +1,25 @@
+body {
+  font-size: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h1 {
+  color: blue;
+}
+
+div {
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    color: brown;
+  }
+
+  div {
+    color: blue;
+    font-size: 15px;
+  }
+}
